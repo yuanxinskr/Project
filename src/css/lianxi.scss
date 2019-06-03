@@ -1,0 +1,99 @@
+@charset "UTF-8";
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+//banner
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+    display: block;
+    a {
+        color: #666;
+        text-decoration: none;
+    }
+    .helpLeftBox {
+        width: 160px;
+        float: left;
+        .helpLeft {
+            border: 1px solid #ddd;
+            h1 {
+                font-weight: bold;
+                background: #ede7e1;
+                line-height: 26px;
+                padding: 0 5px;
+                height: 26px;
+            }
+            ul {
+                background: #fff;
+                padding: 5px 10px;
+                li {
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .helpRightBox {
+        width: 800px;
+        margin-left: 20px;
+        float: left;
+        line-height: 24px;
+        meta {
+            display: none;
+        }
+        h1 {
+            font-size: 14px;
+            line-height: 25px;
+            border-bottom: 1px solid #ddd;
+            padding-left: 10px;
+            font-weight: 700;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            tbody {
+                display: table-row-group;
+                vertical-align: middle;
+                border-color: inherit;
+                tr {
+                    display: table-row;
+                    vertical-align: inherit;
+                    border-color: inherit;
+                    td {
+                        display: table-cell;
+                        vertical-align: inherit;
+                        h2 {
+                            font-weight: bold;
+                            color: #666;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.c_red {
+    color: #c00;
+}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}

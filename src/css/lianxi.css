@@ -1,0 +1,111 @@
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.wrapper {
+  width: 980px;
+  margin: 0 auto;
+  display: block;
+}
+
+.wrapper a {
+  color: #666;
+  text-decoration: none;
+}
+
+.wrapper .helpLeftBox {
+  width: 160px;
+  float: left;
+}
+
+.wrapper .helpLeftBox .helpLeft {
+  border: 1px solid #ddd;
+}
+
+.wrapper .helpLeftBox .helpLeft h1 {
+  font-weight: bold;
+  background: #ede7e1;
+  line-height: 26px;
+  padding: 0 5px;
+  height: 26px;
+}
+
+.wrapper .helpLeftBox .helpLeft ul {
+  background: #fff;
+  padding: 5px 10px;
+}
+
+.wrapper .helpLeftBox .helpLeft ul li {
+  line-height: 24px;
+}
+
+.wrapper .helpRightBox {
+  width: 800px;
+  margin-left: 20px;
+  float: left;
+  line-height: 24px;
+}
+
+.wrapper .helpRightBox meta {
+  display: none;
+}
+
+.wrapper .helpRightBox h1 {
+  font-size: 14px;
+  line-height: 25px;
+  border-bottom: 1px solid #ddd;
+  padding-left: 10px;
+  font-weight: 700;
+}
+
+.wrapper .helpRightBox table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper .helpRightBox table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.wrapper .helpRightBox table tbody tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.wrapper .helpRightBox table tbody tr td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.wrapper .helpRightBox table tbody tr td h2 {
+  font-weight: bold;
+  color: #666;
+  line-height: 24px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.c_red {
+  color: #c00;
+}
+
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
